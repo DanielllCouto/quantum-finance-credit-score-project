@@ -123,13 +123,18 @@ O projeto demonstra um fluxo completo de Machine Learning em produção:
 
 A arquitetura da API foi projetada para ser altamente escalável e resiliente, utilizando uma abordagem serverless na AWS. O fluxo de uma requisição passa por todos os componentes da infraestrutura, desde o cliente até a resposta da predição.
 
-**< Figura 1: Arquitetura da API >**
+<img width="1412" height="1240" alt="Arquitetura" src="https://github.com/user-attachments/assets/fa87eb5e-812d-4b6b-b106-1dc9fe78698c" />
+
+**Figura 1: Arquitetura da API**
 
 ### Fluxo de CI/CD e Orquestração
 
 O fluxo de CI/CD foi desenhado para ser totalmente automatizado, garantindo a integração e entrega contínua de novas versões do modelo, da API e do frontend. O diagrama abaixo detalha as etapas de cada pipeline, desde o commit do código até o deploy em produção.
 
-**< Figura 2: Fluxo de CI/CD >**
+<img width="1655" height="1087" alt="CI CD Blue print" src="https://github.com/user-attachments/assets/31ed9d1e-b6fc-46a6-966b-d2b5a76f7960" />
+
+
+**Figura 2: Fluxo de CI/CD**
 
 
 ## Resultados Alcançados
